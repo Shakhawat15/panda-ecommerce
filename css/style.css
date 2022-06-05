@@ -1,7 +1,13 @@
+/* Reuseable CSS */
+h2 {
+    font-weight: bold;
+}
+
 /* Banner section */
 .container {
     margin-bottom: 10px;
 }
+
 .orange-bg {
     background-color: #fceae8;
     border-radius: 10px;
@@ -27,4 +33,28 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+
+/* Catagories section */
+.cat1,
+.cat2,
+.cat3 {
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.catagories img {
+    width: 100px;
+}
+
+.cat1 {
+    background-image: linear-gradient(to bottom, #ffc04b 0%, #ffac12 100%);
+}
+
+.cat2 {
+    background-image: linear-gradient(to bottom, #ff4dff 0%, #ff13ff 100%);
+}
+
+.cat3 {
+    background-image: linear-gradient(to bottom, #4242ff 0%, #0c0cfd 100%);
 }
